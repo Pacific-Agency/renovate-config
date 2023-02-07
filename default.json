@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "branchPrefix": "deps/",
+  "commitBodyTable": true,
+  "commitMessagePrefix": "deps:",
+  "dependencyDashboardHeader": "В этой issue показаны все обнаруженные Renovate ботом зависимости и доступные для них обновления. Узнать больше можно в [документации](https://docs.renovatebot.com/key-concepts/dashboard/).",
+  "dependencyDashboardTitle": "Дашборд зависимостей",
+  "extends": ["config:base"],
+  "groupName": "all",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "groupName": "all",
+      "matchPackagePatterns": ["*"]
+    }
+  ],
+  "schedule": ["after 1am and before 5am every monday"],
+  "semanticCommits": "disabled",
+  "timezone": "Europe/Moscow"
+}

@@ -18,5 +18,6 @@
   ],
   "schedule": ["after 1am and before 5am every monday"],
   "semanticCommits": "disabled",
+  "separateMajorMinor": false,
   "timezone": "Europe/Moscow"
 }

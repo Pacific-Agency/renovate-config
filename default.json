@@ -7,6 +7,15 @@
   "dependencyDashboardTitle": "Дашборд зависимостей",
   "extends": ["config:base"],
   "groupName": "all",
+  "hostRules": [
+    {
+      "encrypted": {
+        "token": "wcFMA/xDdHCJBTolAQ/7BNeH9VFP+6VmWrULpXnYtwSXnSjJ8BJ5Dlu9QKxD7BoJ4vtTqS4gLZ5cAPACNQVtmyh9HMqVfYSrINO772lbv1toamctdTkuJoihv70eHougcx4z7LQD3HQNJuI4Sl0LGUZtTEb9P//U0fPi0wh4tDWQTf0vmF6NoztItuGF22RjovqkunSm/HGabtb/USJfEpz+Dz2gMFiVcI3CCD7hkPYGj4ppiMVvjY1bX3F86ReC9NF3ZJKwOUlu7he7S3PAnewp6o+wsfSua4sUW4QsuvZtyY7c/AH73O1TVqESBW3vjapMXH1j4eJ0tLIxXumO6EPvCbYDd/bnxmrs5uqBEVmcK80cUCRNwb4As6MYsOXWX+Ny6nlXRtc3ETi7cp8iwGs03DfkIwKXMXl0OXlef+Q5jHcNZ3xk7FE2cDI2/GJBHy7THDYB/d35/KqfiGaHirimTpE1uBgQqgrQHG8gW6PlJFo4VWzTkxRkXX7DNgPt2C6bj1O6/p158sDUuOEZiyxzIc9rkhQf0fLEyYc8xSRO03cq3O8OM3j5/+NP2zgz9W5Xz7DxY4gRrzdGKriOf4XK5cZQCW8pQR1IF2em19iX34ZqKAJRsTJr0+wCjrjx3UCyiz9iGWtsyINU9MpD75SgCkKWF77Ugr1+CqYw96sXL+pi3ZK1tV/aYGO1HuPSfQHSDlzn0mtbG3nj6mIl/sCLnvvkErt1xxqjsQp7pSi+NMzVmNs/J50MKJnlFxlCrMKaF+6Zx+VELtTVOpn7kONBfShADTAUYi8ijHD7cUdlh3WqY2vYSIZriqxPZQxA5r9GhTvzBHCs5TOdcH7lor3CwW4oW8hIYhfsmGU4"
+      },
+      "hostType": "npm",
+      "matchHost": "https://npm.pkg.github.com/"
+    }
+  ],
   "lockFileMaintenance": {
     "enabled": true
   },

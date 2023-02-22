@@ -2,11 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "branchPrefix": "deps/",
   "commitBodyTable": true,
+  "commitMessageAction": "Обновление",
   "commitMessagePrefix": "deps:",
   "dependencyDashboardHeader": "В этой issue показаны все обнаруженные Renovate ботом зависимости и доступные для них обновления. Узнать больше можно в [документации](https://docs.renovatebot.com/key-concepts/dashboard/).",
   "dependencyDashboardTitle": "Дашборд зависимостей",
   "extends": ["config:base"],
-  "groupName": "all",
+  "groupName": "зависимостей",
   "hostRules": [
     {
       "encrypted": {
@@ -17,11 +18,13 @@
     }
   ],
   "lockFileMaintenance": {
-    "enabled": true
+    "commitMessageAction": "Обновление lock-файла",
+    "enabled": true,
+    "schedule": ["after 1am and before 5am every monday"]
   },
   "packageRules": [
     {
-      "groupName": "all",
+      "groupName": "зависимостей",
       "matchPackagePatterns": ["*"]
     }
   ],

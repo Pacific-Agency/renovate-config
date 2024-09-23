@@ -1,4 +1,16 @@
 
+## v0.5.1
+
+[compare changes](https://github.com/Pacific-Agency/renovate-config/compare/v0.5.0...v0.5.1)
+
+### 🐞 Исправления
+
+- Использование нового типа токена ([ce13efc](https://github.com/Pacific-Agency/renovate-config/commit/ce13efc))
+
+### ❤️ Contributors
+
+- Vasily Kuzin ([@ExEr7um](http://github.com/ExEr7um))
+
 ## v0.5.0
 
 [compare changes](https://github.com/Pacific-Agency/renovate-config/compare/v0.4.0...v0.5.0)
